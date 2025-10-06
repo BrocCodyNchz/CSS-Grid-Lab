@@ -1,0 +1,58 @@
+body {
+    display: grid;
+    background-color: #FFFFFF;
+    Width: 1440px;
+    height: 1095px;
+    grid-template-rows: auto;  
+    grid-template-areas: 
+    "sptest"
+    "social"
+    "testimonial";
+    font-family: "roboto";
+    font-weight: 400;
+}
+
+#sptest-section {
+    grid-area: sptest;
+    flex-direction: column;
+    height: 266px;
+    font-size: 24px;
+}
+
+#social-section {
+    grid-area: social;
+    flex-direction: column;
+    height: 379px;
+    width: 900px;
+    font-size: 24px;
+}
+
+.social-div {
+    width: 908px;
+    left: 266px;
+    height: 40px;
+    padding-top: 267px;
+}
+
+#testimonial-section {
+    grid-area: testimonial;
+    flex-direction: column;
+    height: 400px;
+    top: 695px;
+    left: 1px;
+}
+
+.testimonial-name {
+    font-size: 14px;   
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background: none;
+    border: none;
+}
